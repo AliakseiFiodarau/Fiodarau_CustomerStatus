@@ -1,0 +1,19 @@
+<li>
+    <div class="fiodarau-customer-status-section" data-bind="scope: 'section'">
+        <p data-bind="text: customsection().customerStatus"></p>
+    </div>
+    <script type="text/x-magento-init">
+    {
+    	"*": {
+        	"Magento_Ui/js/core/app": {
+            	"components": {
+                	"section": {
+                    	"component": "Fiodarau_CustomerStatus/js/view/section"
+                	}
+            	}
+        	}
+    	}
+    }
+
+    </script>
+</li>
